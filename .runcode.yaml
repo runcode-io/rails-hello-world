@@ -2,6 +2,8 @@ onCreate:
   - sudo apt-get update -y
   - sudo apt-get upgrade -y
   - sudo gem install rails
+  - sudo gem install bundler
+  - bundle install
 
 onStart:
   - |
